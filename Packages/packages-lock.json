@@ -97,6 +97,14 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "moe.meryuhi.effects.fog": {
+      "version": "file:Fog",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "14.0.0"
+      }
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
