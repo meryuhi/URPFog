@@ -66,7 +66,7 @@ Because it is based on Volume framework, you can smoothly switch different effec
 ### Performance
 
 Use [Rendering Debugger](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/features/rendering-debugger.html) to evaluate time. 
-Use Ryzen 5 3600 and Radeon RX 580, and use the development build to run the SampleScene in the project at 2560*1400 resolution.
+Use the development build to run the SampleScene in the project at 2560*1440 resolution with Radeon RX 580.
 
 | Mode     | Density Mode       | Noise      | Time(ms) |
 | -------- | ------------------ | ---------- | -------- |
