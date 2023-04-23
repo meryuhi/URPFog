@@ -26,6 +26,8 @@ Because it is based on Volume framework, you can smoothly switch different effec
 ![Distance Mode](Images/FullScreenFogDistance.jpg)
 #### Height Mode
 ![Height Mode](Images/FullScreenFogHeight.jpg)
+#### With Noise
+https://user-images.githubusercontent.com/23119289/233851479-d5f80709-403a-4a09-9b70-240634c55bcb.mp4
 
 ### Instructions
 
@@ -95,3 +97,6 @@ This is a rough and not very accurate test, but you can know something about the
 
 - [URP Document](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0)
 - [Unity Shaders Book](https://github.com/candycat1992/Unity_Shaders_Book)
+
+## License
+This project is under the MIT License.
