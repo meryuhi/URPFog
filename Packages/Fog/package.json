@@ -1,6 +1,6 @@
 {
   "name": "moe.meryuhi.effects.fog",
-  "displayName": "Meryuhi Fog Effects",
+  "displayName": "URP Fog Effects",
   "version": "0.1.0",
   "unity": "2022.2",
   "description": "Simple fog effects for URP",
