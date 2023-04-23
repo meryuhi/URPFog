@@ -5,6 +5,11 @@
   "unity": "2022.2",
   "description": "Simple fog effects for URP",
   "license": "MIT",
+  "author": {
+    "name": "Meryuhi",
+    "email": "meryuhi@outlook.com",
+    "url": "https://github.com/meryuhi"
+  },
   "dependencies": {
     "com.unity.render-pipelines.universal": "14.0.0"
   }
