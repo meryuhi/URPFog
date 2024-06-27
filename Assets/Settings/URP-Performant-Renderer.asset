@@ -1,5 +1,22 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5147406332462464009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a8a626e4a363604d8b1a959cc4ab28f, type: 3}
+  m_Name: FullScreenFogRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  _injectionPoint: 550
+  _renderCamera: 3
+  _shader: {fileID: -6465566751694194690, guid: a1b07ed697d67f145899e797afa7e6d3,
+    type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16,8 +33,9 @@ MonoBehaviour:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7,
       type: 3}
     hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
-  m_RendererFeatures: []
-  m_RendererFeatureMap: 
+  m_RendererFeatures:
+  - {fileID: -5147406332462464009}
+  m_RendererFeatureMap: f783fa7636bd90b8
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
