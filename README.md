@@ -35,7 +35,7 @@ https://user-images.githubusercontent.com/23119289/233851479-d5f80709-403a-4a09-
 
     | Name              | Description                                                                                                                        |
     | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-    | `Injection Point` | Selection for when the effect is rendered.                                                                                         |
+    | `Injection Point` | Selection for when the effect is rendered. `Before Rendering Skybox`: Using this if you do not want to override skybox.            |
     | `Render Camera`   | Selection for which camera type want to render.                                                                                    |
     | `Shader`          | Automatically set `FullScreenFog` shader provided by the package, or you can create your own (you need to check parameter design). |
 
