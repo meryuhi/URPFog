@@ -26,6 +26,8 @@ Because it is based on Volume framework, you can smoothly switch different effec
 ![Distance Mode](Images/FullScreenFogDistance.jpg)
 #### Height Mode
 ![Height Mode](Images/FullScreenFogHeight.jpg)
+#### Transparent Object
+![HTransparent Object](Images/TransparentObject.jpg)
 #### With Noise
 https://user-images.githubusercontent.com/23119289/233851479-d5f80709-403a-4a09-9b70-240634c55bcb.mp4
 
@@ -82,8 +84,7 @@ This is a rough and not very accurate test, but you can know something about the
 
 ### Known issues
 
-- If the scene has transparent objects, it may cause strange visual effects due to lack of depth information. You can solve this problem by enabling depth write on transparent objects.
-- In the case of using noise, if the `Noise Scale` is too large, the effect may not be very good.
+- In the case of using noise, if the `Noise Scale` is too large, the result may not be very good.
 
 ## Todo
 
