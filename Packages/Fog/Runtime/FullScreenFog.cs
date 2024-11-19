@@ -196,7 +196,7 @@ namespace Meryuhi.Rendering
         /// <inheritdoc/>
         public bool IsActive()
         {
-            return intensity != 0;
+            return intensity.value != 0;
         }
 
         /// <inheritdoc/>
