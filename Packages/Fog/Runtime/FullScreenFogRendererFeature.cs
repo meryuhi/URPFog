@@ -6,7 +6,6 @@ using UnityEngine.Rendering.Universal;
 
 namespace Meryuhi.Rendering
 {
-    [DisallowMultipleRendererFeature(FullScreenFog.Name)]
     [Tooltip(FullScreenFog.Name + " will process the related volume overrides in scenes.")]
     public sealed class FullScreenFogRendererFeature : ScriptableRendererFeature
     {
