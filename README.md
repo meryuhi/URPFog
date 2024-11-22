@@ -26,8 +26,10 @@ Because it is based on Volume framework, you can smoothly switch different effec
 ![Distance Mode](Images/FullScreenFogDistance.jpg)
 #### Height Mode
 ![Height Mode](Images/FullScreenFogHeight.jpg)
-#### Transparent Object
-![HTransparent Object](Images/TransparentObject.jpg)
+#### With Transparent Objects (Experimental)
+This requires setting up a `Camera Stack`. Please refer to the instructions.
+
+![With Transparent Objects](Images/WithTransparentObjects.jpg)
 #### With Noise
 https://user-images.githubusercontent.com/23119289/233851479-d5f80709-403a-4a09-9b70-240634c55bcb.mp4
 
@@ -66,6 +68,13 @@ https://user-images.githubusercontent.com/23119289/233851479-d5f80709-403a-4a09-
     | `Noise Intensity` | -                    | Mixing strength of the noise.                                                              |
     | `Noise Scale`     | -                    | Scaling of the noise.                                                                      |
     | `Noise Speed`     | -                    | Scrolling speed of the noise.                                                              |
+3. (Optional step for transparent objects)
+    
+    Experimental support. The approximate effect is produced by rendering fog and transparent objects twice, which is not completely correct.
+
+    1. Add a `StandardFullScreenFogOverlayRenderer` or your own renderer into your URP pipeline asset. 
+    2. Set up a `Overlay` camera on your `Main Camera`.
+    3. Switch `Renderer` property to `StandardFullScreenFogOverlayRenderer` on the `Overlay` camera.
 
 ### Performance
 
