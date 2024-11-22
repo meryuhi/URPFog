@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
-  m_Name: TransparentZWrite
+  m_Name: RenderTransparentObjectsWithZWrite
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
-    passTag: TransparentZWrite
+    passTag: RenderTransparentObjectsWithZWrite
     Event: 500
     filterSettings:
       RenderQueueType: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
         serializedVersion: 2
         m_Bits: 4294967295
       PassNames: []
-    overrideMaterial: {fileID: 2100000, guid: c49bac70e25087f47ba4847ccb013519, type: 2}
+    overrideMaterial: {fileID: 0}
     overrideMaterialPassIndex: 0
     overrideShader: {fileID: 0}
     overrideShaderPassIndex: 0
@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
-  m_Name: URP-Overlay-Renderer
+  m_Name: StandardFullScreenFogOverlayRenderer
   m_EditorClassIdentifier: 
   debugShaders:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7,
@@ -90,7 +90,7 @@ MonoBehaviour:
     m_Bits: 0
   m_TransparentLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
   m_DefaultStencilState:
     overrideStencilState: 0
     stencilReference: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a8a626e4a363604d8b1a959cc4ab28f, type: 3}
-  m_Name: FullScreenFogRendererFeature
+  m_Name: OverlayFullScreenFogEffect
   m_EditorClassIdentifier: 
   m_Active: 1
   _injectionPoint: 550
