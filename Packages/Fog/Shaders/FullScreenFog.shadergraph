@@ -1316,8 +1316,8 @@
     "m_ObjectId": "0453cf0aca32472e8903a6d183328f35",
     "m_Title": "NoiseMixing",
     "m_Position": {
-        "x": -933.5,
-        "y": 510.0
+        "x": -933.9999389648438,
+        "y": 509.99993896484377
     }
 }
 
@@ -1399,8 +1399,8 @@
         "y": 1.0
     },
     "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0
+        "x": 1.0,
+        "y": 1.0
     },
     "m_Labels": []
 }
@@ -2123,7 +2123,7 @@
         "x": 0.0,
         "y": 0.0,
         "z": 0.0,
-        "w": 0.0
+        "w": 1.0
     },
     "m_Labels": []
 }
@@ -2450,8 +2450,8 @@
     "m_ObjectId": "34702c835614495ca1d116b6625558d9",
     "m_Title": "ExponentialSquared",
     "m_Position": {
-        "x": -3100.0,
-        "y": 1076.5001220703125
+        "x": -3100.39990234375,
+        "y": 1068.800048828125
     }
 }
 
@@ -3024,8 +3024,8 @@
         "y": 1.0
     },
     "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0
+        "x": 1.0,
+        "y": 1.0
     },
     "m_Labels": []
 }
@@ -3066,7 +3066,7 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "isMainTexture": false,
@@ -3250,8 +3250,8 @@
     "m_ObjectId": "5032f18c244441bc862fe360d3f4fc60",
     "m_Title": "Linear",
     "m_Position": {
-        "x": -3295.0,
-        "y": -406.0
+        "x": -3295.199951171875,
+        "y": -406.0000305175781
     }
 }
 
@@ -3396,8 +3396,8 @@
     "m_ObjectId": "58e7384c7c524bc1a93917e0c0c52f54",
     "m_Title": "World Position",
     "m_Position": {
-        "x": -5195.2001953125,
-        "y": 270.3999938964844
+        "x": -4812.400390625,
+        "y": 575.9999389648438
     }
 }
 
@@ -4708,7 +4708,7 @@
     "m_StageCapability": 3,
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "m_DefaultType": 0
@@ -5467,8 +5467,8 @@
     "m_ObjectId": "9bb29eee12514d80901008a7b586a4b5",
     "m_Title": "Density",
     "m_Position": {
-        "x": -1905.5,
-        "y": 397.0
+        "x": -1905.9998779296875,
+        "y": 407.5999755859375
     }
 }
 
@@ -5898,6 +5898,9 @@
     "m_AlphaClip": false,
     "m_CastShadows": true,
     "m_ReceiveShadows": true,
+    "m_DisableTint": false,
+    "m_AdditionalMotionVectorMode": 0,
+    "m_AlembicMotionVectors": false,
     "m_SupportsLODCrossFade": false,
     "m_CustomEditorGUI": "",
     "m_SupportVFX": false
@@ -7367,8 +7370,8 @@
     "m_ObjectId": "e074ef80e1ce40ea9dfeaba8d21887b0",
     "m_Title": "Color Mixing",
     "m_Position": {
-        "x": 2685.499755859375,
-        "y": -95.0
+        "x": 2685.2001953125,
+        "y": -94.80001831054688
     }
 }
 
@@ -7738,8 +7741,8 @@
     "m_ObjectId": "ee29ce1600584263a76ebd0de8aa4c12",
     "m_Title": "Exponential",
     "m_Position": {
-        "x": -3634.0,
-        "y": 312.0
+        "x": -3727.199951171875,
+        "y": 409.199951171875
     }
 }
 
