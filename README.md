@@ -2,15 +2,19 @@
 
 This project will provide some URP-based fog effects, and implement it in a relatively quick way.
 
+## Requirements
+
+- URP v14
+
 ## Installation
 
 - Install via UPM git URL
 
-  `https://github.com/meryuhi/URPFog.git?path=Packages/Fog`
+  `https://github.com/meryuhi/URPFog.git?path=Packages/Fog#urp14`
 
 - Install via `Packages/manifest.json`
 
-  `"moe.meryuhi.effects.fog": "https://github.com/meryuhi/URPFog.git?path=Packages/Fog"`
+  `"moe.meryuhi.effects.fog": "https://github.com/meryuhi/URPFog.git?path=Packages/Fog#urp14"`
 
 ## Full Screen Fog
 
@@ -98,10 +102,6 @@ This is a rough and not very accurate test, but you can know something about the
 ## Todo
 
 - Volume Fog
-
-## Requirements
-
-- URP v14
 
 ## References
 
