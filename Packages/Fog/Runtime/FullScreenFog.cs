@@ -108,7 +108,8 @@ namespace Meryuhi.Rendering
     /// <summary>
     /// A volume component that holds settings for the Full Screen Fog effect.
     /// </summary>
-    [Serializable, VolumeComponentMenuForRenderPipeline(nameof(Meryuhi) + "/Full Screen Fog", typeof(UniversalRenderPipeline))]
+    [Serializable, VolumeComponentMenu(nameof(Meryuhi) + "/Full Screen Fog")]
+    [SupportedOnRenderPipeline(typeof(UniversalRenderPipelineAsset))]
     public class FullScreenFog : VolumeComponent, IPostProcessComponent
     {
         public const string Name = "Full Screen Fog";

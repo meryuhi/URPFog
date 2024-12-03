@@ -1,8 +1,8 @@
 {
   "name": "moe.meryuhi.effects.fog",
   "displayName": "URP Fog Effects",
-  "version": "0.1.0",
-  "unity": "2022.2",
+  "version": "0.2.0",
+  "unity": "2023.3",
   "description": "Simple fog effects for URP",
   "license": "MIT",
   "author": {
@@ -11,6 +11,6 @@
     "url": "https://github.com/meryuhi"
   },
   "dependencies": {
-    "com.unity.render-pipelines.universal": "14.0.0"
+    "com.unity.render-pipelines.universal": "17.0.0"
   }
 }
