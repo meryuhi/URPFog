@@ -2,6 +2,12 @@
 
 This project will provide some URP-based fog effects, and implement it in a relatively quick way.
 
+## Requirements
+
+- URP v17
+
+  For URP v14~16, check urp14 branch
+
 ## Installation
 
 - Install via UPM git URL
@@ -14,7 +20,7 @@ This project will provide some URP-based fog effects, and implement it in a rela
 
 ## Full Screen Fog
 
-It based on [Volume framework](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/Volumes.html) and [URP Renderer Feature](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/urp-renderer-feature.html). Also the `FullScreenFog` shader itself is also a [Fullscreen Shader Graph](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/post-processing/custom-post-processing.html), so it can be used in [Full Screen Pass Renderer Feature](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/renderer-features/renderer-feature-full-screen-pass.html).
+It based on [Volume framework](https://docs.unity3d.com/6000.0/Documentation/Manual/urp/Volumes.html) and [URP Renderer Feature](https://docs.unity3d.com/6000.0/Documentation/Manual/urp/urp-renderer-feature.html). Also the `FullScreenFog` shader itself is also a [Fullscreen Shader Graph](https://docs.unity3d.com/6000.0/Documentation/Manual/urp/post-processing/custom-post-processing.html), so it can be used in [Full Screen Pass Renderer Feature](https://docs.unity3d.com/6000.0/Documentation/Manual/urp/renderer-features/renderer-feature-full-screen-pass.html).
 
 Because it is based on Volume framework, you can smoothly switch different effects between different areas without coding.
 
@@ -78,7 +84,7 @@ https://user-images.githubusercontent.com/23119289/233851479-d5f80709-403a-4a09-
 
 ### Performance
 
-Use [Rendering Debugger](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/features/rendering-debugger.html) to evaluate time. 
+Use [Rendering Debugger](https://docs.unity3d.com/6000.0/Documentation/Manual/urp/features/rendering-debugger.html) to evaluate time. 
 Use the development build to run the SampleScene in the project at 2560*1440 resolution with Radeon RX 580.
 
 | Mode     | Density Mode       | Noise      | Time(ms) |
@@ -99,13 +105,9 @@ This is a rough and not very accurate test, but you can know something about the
 
 - Volume Fog
 
-## Requirements
-
-- URP v14
-
 ## References
 
-- [URP Document](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0)
+- [URP Document](https://docs.unity3d.com/6000.0/Documentation/Manual/universal-render-pipeline.html)
 - [Unity Shaders Book](https://github.com/candycat1992/Unity_Shaders_Book)
 
 ## License
