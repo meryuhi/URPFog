@@ -227,6 +227,7 @@ namespace Meryuhi.Rendering
                         builder.UseTexture(colorTexture);
                     }
 
+                    //Declare that the pass uses the depth texture
                     if ((input & ScriptableRenderPassInput.Depth) != ScriptableRenderPassInput.None)
                     {
                         Debug.Assert(resourcesData.cameraDepthTexture.IsValid());
@@ -333,6 +334,7 @@ namespace Meryuhi.Rendering
                 Material = _material,
                 Fog = fog,
             });
+            //TODO: maybe we do not need color input
             _renderPass.ConfigureInput(ScriptableRenderPassInput.Color | ScriptableRenderPassInput.Depth);
 
             _renderPass.requiresIntermediateTexture = true;
