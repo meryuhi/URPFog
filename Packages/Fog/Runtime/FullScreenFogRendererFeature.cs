@@ -214,10 +214,17 @@ namespace Meryuhi.Rendering
                     if(passData.InputTexture.IsValid())
                         builder.UseTexture(passData.InputTexture, AccessFlags.Read);
 
+                    //Declare that the pass uses the input texture
+                    var colorTexture = source;
+                    //For avoid overpainting
+                    if (renderPassEvent >= (RenderPassEvent)InjectionPoint.BeforeRenderingTransparents)
+                    {
+                        colorTexture = resourcesData.cameraOpaqueTexture;
+                    }
                     if ((input & ScriptableRenderPassInput.Color) != ScriptableRenderPassInput.None)
                     {
-                        Debug.Assert(resourcesData.cameraOpaqueTexture.IsValid());
-                        builder.UseTexture(resourcesData.cameraOpaqueTexture);
+                        Debug.Assert(colorTexture.IsValid());
+                        builder.UseTexture(colorTexture);
                     }
 
                     if ((input & ScriptableRenderPassInput.Depth) != ScriptableRenderPassInput.None)
