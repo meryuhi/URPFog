@@ -36,7 +36,7 @@
         "**/*.MA": true,
         "**/*.obj": true,
         "**/*.OBJ": true,
-        "**/*.asset": true,
+        //"**/*.asset": true,
         "**/*.cubemap": true,
         "**/*.flare": true,
         "**/*.mat": true,
@@ -56,6 +56,17 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Meryuhi.Effects.Fog.sln",
+    "files.associations": {
+        "*.asset": "yaml",
+        "*.meta": "yaml",
+        "*.prefab": "yaml",
+        "*.unity": "yaml",
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.sln": "*.csproj",
+        "*.slnx": "*.csproj"
+    },
+    "dotnet.defaultSolution": "Meryuhi.Effects.Fog.slnx",
     "liveServer.settings.root": "/Build"
 }
